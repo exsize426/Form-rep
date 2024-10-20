@@ -1,0 +1,98 @@
+.FormWrapper {
+    position: relative;
+    display: block;
+    unicode-bidi: isolate;
+    margin: 10px auto;
+    width: 200px;
+    color: rgb(174, 98, 17);
+    border: 4px solid rgb(78, 152, 172);
+    border-radius: 30px;
+    padding: 20px;
+    box-shadow: 10px 4px 10px 3px #888;
+
+    
+    
+    
+}
+#biography {
+    font-weight: bold;
+    color:aqua;
+}
+
+.firstName {
+    border: 2px solid red;
+}
+
+.footer-list {
+    background-color: rgb(0, 5, 4);
+    color: blueviolet;
+    
+    
+    
+}
+
+.editContent {
+    width: 300px;
+    height: 100px;
+    
+}
+
+.contacts {
+    width: 300px;
+    height: 200px;
+    
+}
+div > h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 5px 4px 3px #999;
+    color:aqua;
+}
+nav {
+    background-image: url("https://u-stena.ru/upload/iblock/c7d/c7d4279b3074eac4f32033340a47d473.jpg");
+}
+
+nav > ul {
+    color:rgb(41, 253, 8);
+}
+
+
+.demon {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    color:rgb(250, 168, 69);
+    opacity: 0.7;
+    font-size: 14px;
+}
+
+body {
+    background-image: url("https://s1.1zoom.me/b5050/520/DOTA_2_Logo_Emblem_463272_1920x1080.jpg");
+    background-size: cover ;
+}
+
+div > span {
+    display: inline-block;
+}
+
+
+
+
+
+
+
+
+
+a:link {
+    color:blue; text-decoration:none;
+}
+
+a:visited {
+    color:rgb(123, 20, 157); text-decoration:none;
+}
+
+a:hover {
+    color:red; text-decoration:underline;
+}
+
+a:active {
+    color:yellow; text-decoration:underline;
+}

@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forma</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+    <nav>
+        <ul class="navMenu">
+            <li><a href="#biography">Автобиография</a></li>
+            <li><a href="#FormWrapper">Форма обратной связи</a></li>
+            <li><a href="#footer-list">О нас</a></li>
+            
+        </ul>
+    </nav>
+    
+<header>
+        <section id="biography">
+            <h2>Автобиография</h2>
+            <div class="demon">Всем писсс... Меня зовут Димон. Сегодня я познакомлю Вас, с таким увлекательным человеком - как я. 
+                Я Димон покемон 95года выпуска. Made in Azov. Я люблю сидеть дома, играть в компутер, и общаться с друзьями, которых у меня нет!
+                Я не где не работаю, ведь эти работы для лохов. Я сам себе начальник. Хочу работаю, хочу на рыбалку еду, хочу сплю до обеда.
+                Вся моя жизнь строится: Хочу-Нехочу. А еще я люблю хотеть заниматься спортом, но у меня на него нет времени. 
+                Из увлечений у меня только тунки и программирование, иногда езжу на рыбалку, ведь так хочет моя сожительница. А иногда
+                делаю вид , что с удовольствием мою лапы ее собаке, мне это не нравится, но кого ебет чужое горе, но я стараюсь ее радовать.
+                Моя сожительница не плохая , только ссытся и глухая. Она веселая бубнит что-то себе под нос, ходит бродит как на дрожах, но мне с ней весело.
+                Она держит меня в заложниках... помогите!!!
+            </div>
+        </section>
+</header>
+
+    <main>
+        <section id='FormWrapper' class="FormWrapper">
+            <form method="post" >
+                <div>
+                    <h2>Оставьте заявку на обучение</h2>
+                    <select>
+                        <option value="category" selected  disabled>Категория </option>
+                        <option value="A">Категория A</option>
+                        <option value="B">Категория B</option>
+                        <option value="C">Категория C</option>
+                        <option value="D">Категория D</option>
+                        <option value="E">Категория E</option>
+                    </select>
+                </div>
+                <br />
+
+                <div>
+                    <label for="phone"></label>
+             
+                <select id="phone" name="phone" > 
+                    <optgroup label="Модель транспорта">
+                        <option>Модель траспорта</option>
+                    </optgroup>
+                        <optgroup label="Moto" >
+                        <option value="honda">Honda dio</option>
+                        <option value="yamaha">Yamaha YBR 125</option>
+                        <option value="bajaj">Bajaj Pulsar</option>
+                    </optgroup>
+                    <optgroup label="Auto">
+                        <option value="hyundai">Hyundai solaris</option>
+                        <option value="reno">Reno Arkana</option>
+                        <option value="toyota">Toyota Camry</option>
+                    </optgroup>
+                    <optgroup label="Gazon">
+                        <option value="gazonNext">ГАЗон NEXT</option>
+                    </optgroup>
+                    <optgroup label="Gazelle">
+                        <option value="gazelle">Gazelle Next</option>
+                    </optgroup>
+                </select>
+                </div>
+                <br />
+
+                <div>
+                    <label for="name">Имя:</label>
+                    <br />
+                    <input type="text" id="firstName" name="name"  placeholder="Введите имя">
+                </div>
+                <br />
+
+                <div>
+                    <label for="surName">Фамилия:</label>
+                    <br />
+                    <input type="text"  name="surName" placeholder="Введите фамилию">
+                </div>
+                <br />
+
+                <div>
+                    <label for="town">Город:</label>
+                    <br />
+                    <input list="town"  type="text" placeholder="Введите город"/>
+                    <datalist id="town">
+                    <option>Москва</option>
+                    <option>Санкт - Петербург</option>
+                    <option>Ростов-на-Дону</option>
+                    <option>Азов</option>
+                    <option>Сальск</option>
+                    <option>Новочеркаск</option>
+                    <option>Таганрог</option>
+                    </datalist>
+                </div>
+                <br />
+
+                <div>
+                    <label for="date">Дата рождения:</label>
+                    <br />
+                    <input type="date"  name="date" placeholder="">
+                </div>
+                <br />
+
+                <fieldset >
+                    <legend>Гражданство</legend>
+                        <div>
+                            <input type="radio" name="nationality" id="Russia" checked>
+                            <label for="Russia">Россия</label>
+                        </div>
+                            
+                        <div>
+                            <input type="radio" name="nationality" id="Belarus" >
+                            <label for="Belarus">Беларусь</label>
+                        </div>
+                        
+                        <div>
+                            <input type="radio" name="nationality" id="Armenia" >
+                            <label for="Armenia">Армения</label>
+                        </div>
+                            
+                        <div>
+                            <input type="radio" name="nationality" id="Kazakhstan" >
+                            <label for="Kazakhstan">Казахстан</label>
+                        </div> 
+                            
+                        <div>
+                            <input type="radio" name="nationality" id="Tajikistan" >
+                            <label for="Tajikistan">Таджикистан</label>
+                        </div>   
+                            
+                        <div>
+                            <input type="radio" name="nationality" id="other" >
+                            <label for="other">Другое гражданство</label>
+                        </div>  
+                </fieldset>
+                <br />
+
+                        <div>
+                            <label for="email">Электронная почта
+                                <br />
+                                <input type="email"  name="email" required placeholder="user@gmail.com" >
+                            </label>
+                            
+                        </div>
+                        <br />
+
+                        <div>
+                            <label for="phone">Номер для связи:</label>
+                            <br />
+                            <input type="tel"  name="phone" placeholder="+7(9хх)ххх-хх-хх" >
+                        </div>
+                        <br />
+
+                        <div>
+                            <input type="checkbox" id="accord">Соглашаюсь на  обработку персональных данных и с <a href="https://xn--80aenofndbuo1e6c.xn--p1ai/politics/" target="_blank">Политикой конфиденциальности</a> 
+                            <label for="accord"></label>
+                        </div>
+                        <br />
+
+                        <div>
+                            <button type="submit" value="Отправить">Отправить</button>
+                            <button type="reset" >Отменить</button>
+                        </div>
+            </form>
+            
+        </section>
+    </main>
+
+    <footer id="footer-list" class="footer-list">
+        <div class="container">
+            <span class="editContent">© 2012-2023 Все права защищены. 
+                <br>
+                Автошкола 
+                <br />
+                Условия оферты
+            </span>
+            
+            <span class="contacts">
+                <h4>О автошколе</h4>
+                <ul>
+                    <li>Новости</li>
+                    <li>Контакты</li>
+                    <li>Общие сведения</li>
+                </ul>
+            </span>
+
+            <span>   Россия, 117037, г. Москва, вн.тер.г. |<br />
+                    мун. округ Замоскворечье, ул. Творческая, 426,|<br />
+                     этаж 1, помещ. 1, ком.1 
+            </span>
+         </div>
+    </footer>
+</body>
+</html>
